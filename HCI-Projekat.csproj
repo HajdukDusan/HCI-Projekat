@@ -55,25 +55,196 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="AdminAssociate.xaml.cs">
+      <DependentUpon>AdminAssociate.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AdminAssociateAdd.xaml.cs">
+      <DependentUpon>AdminAssociateAdd.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AdminAssociateEdit.xaml.cs">
+      <DependentUpon>AdminAssociateEdit.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AdminEventEdit.xaml.cs">
+      <DependentUpon>AdminEventEdit.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AdminEventAdd.xaml.cs">
+      <DependentUpon>AdminEventAdd.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AdminEvents.xaml.cs">
+      <DependentUpon>AdminEvents.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AdminHome.xaml.cs">
+      <DependentUpon>AdminHome.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AdminOrganizerAdd.xaml.cs">
+      <DependentUpon>AdminOrganizerAdd.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AdminOrganizerEdit.xaml.cs">
+      <DependentUpon>AdminOrganizerEdit.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AdminOrganizers.xaml.cs">
+      <DependentUpon>AdminOrganizers.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AdminUserEdit.xaml.cs">
+      <DependentUpon>AdminUserEdit.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AdminUserAdd.xaml.cs">
+      <DependentUpon>AdminUserAdd.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AdminUsers.xaml.cs">
+      <DependentUpon>AdminUsers.xaml</DependentUpon>
+    </Compile>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="client_main.xaml">
-      <SubType>Designer</SubType>
+    <Page Include="AdminAssociate.xaml">
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="AdminAssociateAdd.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="AdminAssociateEdit.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="AdminEventEdit.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="AdminEventAdd.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="AdminEvents.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="AdminHome.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="AdminOrganizerAdd.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="AdminOrganizerEdit.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="AdminOrganizers.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="AdminUserEdit.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="AdminUserAdd.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="AdminUsers.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ConfirmationWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="login.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="ClientHome.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="OrganizerEventOpen.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="OrganizerEvents.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="OrganizerHome.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="OrganizerInfo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="OrganizerManageAssociate.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="OrganizerManageSuggestions.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Theme\MenuButtonTheme.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MvM\View\AllEventsView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MvM\View\HomePageView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MvM\View\UserProfileView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Manager.cs" />
-    <Compile Include="Roles.cs" />
-    <Compile Include="client_main.xaml.cs">
-      <DependentUpon>client_main.xaml</DependentUpon>
+    <Compile Include="ConfirmationWindow.xaml.cs">
+      <DependentUpon>ConfirmationWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ClientHome.xaml.cs">
+      <DependentUpon>ClientHome.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Manager.cs" />
+    <Compile Include="Core\ObservableObjects.cs" />
+    <Compile Include="Core\RelayCommand.cs" />
+    <Compile Include="MvM\ViewModel\AllEventsViewModel.cs" />
+    <Compile Include="MvM\ViewModel\HomeViewModel.cs" />
+    <Compile Include="MvM\ViewModel\MainViewModel.cs" />
+    <Compile Include="MvM\ViewModel\UserProfileViewModel.cs" />
+    <Compile Include="MvM\View\AllEventsView.xaml.cs">
+      <DependentUpon>AllEventsView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MvM\View\HomePageView.xaml.cs">
+      <DependentUpon>HomePageView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MvM\View\UserProfileView.xaml.cs">
+      <DependentUpon>UserProfileView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="OrganizerEventOpen.xaml.cs">
+      <DependentUpon>OrganizerEventOpen.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="OrganizerEvents.xaml.cs">
+      <DependentUpon>OrganizerEvents.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="OrganizerHome.xaml.cs">
+      <DependentUpon>OrganizerHome.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="OrganizerInfo.xaml.cs">
+      <DependentUpon>OrganizerInfo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="OrganizerManageAssociate.xaml.cs">
+      <DependentUpon>OrganizerManageAssociate.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="OrganizerManageSuggestions.xaml.cs">
+      <DependentUpon>OrganizerManageSuggestions.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Roles.cs" />
     <Compile Include="Event_stuff.cs" />
     <Compile Include="login.xaml.cs">
       <DependentUpon>login.xaml</DependentUpon>
@@ -105,6 +276,20 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\LogIn.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\champine.jpg" />
+    <Resource Include="Images\club.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\party.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Admin\" />
+    <Folder Include="MvM\Model\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\avatar.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

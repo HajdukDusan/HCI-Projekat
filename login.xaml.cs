@@ -26,7 +26,8 @@ namespace HCI_Projekat
             String email = textBox_ime.Text;
             String sifra = textBox_sifra.Text;
 
-            AppManager.loadAccounts();
+            if (AppManager.Accounts.Count == 0)
+                AppManager.LoadData();
 
             Account tmp = AppManager.findAccount(email);
 
@@ -35,19 +36,35 @@ namespace HCI_Projekat
                 // acc ne postoji
             }
 
-            else if (tmp.password == sifra)
+            else if (tmp.Password == sifra)
             {
-                switch (tmp.role)
+                switch (tmp.Role)
                 {
                     case Role.CLIENT:
+                        AppManager.SelectedAccount = tmp;
                         this.Hide();
-                        client_main form = new client_main();
+                        ClientHome form = new ClientHome(tmp);
+                        form.Left = this.Left + (this.Width - form.Width) / 2;
+                        form.Top = this.Top + (this.Height - form.Height) / 2;
                         form.Closed += (s, args) => this.Close();
                         form.Show();
                         break;
                     case Role.ORGANIZER:
+                        AppManager.SelectedAccount = tmp;
+                        this.Hide();
+                        OrganizerHome form2 = new OrganizerHome();
+                        form2.Left = this.Left + (this.Width - form2.Width) / 2;
+                        form2.Top = this.Top + (this.Height - form2.Height) / 2;
+                        form2.Closed += (s, args) => this.Close();
+                        form2.Show();
                         break;
                     case Role.ADMIN:
+                        this.Hide();
+                        AdminHome form3 = new AdminHome();
+                        form3.Left = this.Left + (this.Width - form3.Width) / 2;
+                        form3.Top = this.Top + (this.Height - form3.Height) / 2;
+                        form3.Closed += (s, args) => this.Close();
+                        form3.Show();
                         break;
                 }
             }
@@ -113,6 +130,11 @@ namespace HCI_Projekat
             {
                 DragMove();
             }
+        }
+
+        private void login_button_Click_1(object sender, RoutedEventArgs e)
+        {
+            Login();
         }
     }
 }

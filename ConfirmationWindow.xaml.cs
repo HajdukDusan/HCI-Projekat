@@ -15,13 +15,28 @@ using System.Windows.Shapes;
 namespace HCI_Projekat
 {
     /// <summary>
-    /// Interaction logic for client_main.xaml
+    /// Interaction logic for ConfirmationWindow.xaml
     /// </summary>
-    public partial class client_main : Window
+    public partial class ConfirmationWindow : Window
     {
-        public client_main()
+
+        public ConfirmationWindow(ref bool t)
         {
             InitializeComponent();
+
+
+        }
+
+        private void AllowButton_Click(object sender, RoutedEventArgs e)
+        {
+            AppManager.confirm = true;
+            this.Close();
+        }
+
+        private void DenyButton_Click(object sender, RoutedEventArgs e)
+        {
+            AppManager.confirm = false;
+            this.Close();
         }
     }
 }

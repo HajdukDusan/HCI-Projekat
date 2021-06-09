@@ -25,7 +25,7 @@
         <Image x:Name="image" Source="Images/LogIn.jpg" HorizontalAlignment="Left"  VerticalAlignment="Top"  Grid.RowSpan="2" Height="450" Grid.ColumnSpan="2" Margin="-142,0,0,0"/>
         <Grid Background="#FF3F2655" Grid.Column="1" Grid.RowSpan="2" >
 
-            <Button x:Name="login_button"  Content="Sign in" HorizontalAlignment="Center"  Width="200" Height="50" Margin="0,335,0,65" Background="#FFA56FE6" Foreground="White" FontSize="20" TabIndex="1" />
+            <Button x:Name="login_button"  Content="Sign in" HorizontalAlignment="Center"  Width="200" Height="50" Margin="0,335,0,65" Background="#FFA56FE6" Foreground="White" FontSize="20" TabIndex="1" Click="login_button_Click_1" />
 
 
             <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="34,28,0,0" TextWrapping="Wrap" TextAlignment="Center" Foreground="#FFB2C5EE" Text="Do you need help with event planing?" VerticalAlignment="Top" Height="93" FontWeight="Bold" FontSize="30" Width="325"/>

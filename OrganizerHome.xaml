@@ -1,0 +1,46 @@
+﻿<Window x:Class="HCI_Projekat.OrganizerHome"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:HCI_Projekat"
+      mc:Ignorable="d" 
+      Height="450" Width="800"
+      Title="Organizer Home"
+      WindowStyle="None"
+      ResizeMode="NoResize"
+      MouseDown="Window_MouseDown">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="233*" ></RowDefinition>
+            <RowDefinition Height="217*" ></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="400" ></ColumnDefinition>
+            <ColumnDefinition Width="400" ></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid Background="#FF3F2655" Grid.RowSpan="2" Grid.ColumnSpan="2" >
+
+            <Button x:Name="button"  Content="Help" HorizontalAlignment="Center"  Width="138" Height="50" Margin="0,0,662,400" Background="#FFA56FE6" Foreground="White" FontSize="20" />
+            <Button x:Name="button_Copy"  Content="DEMO" HorizontalAlignment="Center"  Width="138" Height="50" Margin="138,0,524,400" Background="#FFA56FE6" Foreground="White" FontSize="20" />
+            <Button x:Name="button_Copy1"  Content="Sign out" HorizontalAlignment="Center"  Width="108" Height="50" Margin="692,0,0,400" Background="#FFA56FE6" Foreground="White" FontSize="20" Click="button_Copy1_Click" />
+        </Grid>
+        <Grid Background="#FF262655" Grid.ColumnSpan="2" Margin="0,50,0,0" Grid.RowSpan="2" >
+            <Image x:Name="image_Copy4" Stretch="UniformToFill" HorizontalAlignment="Left" Height="240" Margin="463,35,0,0" VerticalAlignment="Top" Width="189" Source="Images/club.jpg"/>
+            <Image x:Name="image_Copy" Stretch="UniformToFill" HorizontalAlignment="Left" Height="240" Margin="152,35,0,0" VerticalAlignment="Top" Width="189" Source="Images/party.jpg"/>
+            <Grid HorizontalAlignment="Left" Background="White" Height="83" Margin="152,275,0,0" VerticalAlignment="Top" Width="189">
+                <Button x:Name="button_Copy2"  Content="Info" HorizontalAlignment="Center"  Width="100" Margin="39,45,50,10" Background="#FFA56FE6" Foreground="White" FontSize="16" Click="button_Copy2_Click" />
+                <TextBlock x:Name="textBlock1" TextAlignment="Center" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Text="Check your info" FontSize="16" Foreground="Black" Margin="0,10,0,0" Width="189" FontWeight="Bold"/>
+            </Grid>
+            <Grid HorizontalAlignment="Left" Height="83"  Background="White" Margin="463,275,0,0" VerticalAlignment="Top" Width="189">
+                <Button x:Name="button_Copy3" Content="My Events" HorizontalAlignment="Center"  Width="100" Margin="40,45,49,10" Background="#FFA56FE6" Foreground="White" FontSize="16" Click="button_Copy3_Click" />
+                <TextBlock x:Name="textBlock1_Copy" TextAlignment="Center" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Text="Check your events" FontSize="16" Foreground="Black" Margin="0,10,0,0" Width="189" FontWeight="Bold"/>
+            </Grid>
+
+        </Grid>
+
+
+    </Grid>
+</Window>
