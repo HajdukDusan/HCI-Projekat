@@ -1,0 +1,4 @@
+Area 51 Raid|Dusan|Jelena|Jeste li sigurni za datum, padaće kisa?|Da moramo napasti taj dan.|Denied
+Area 51 Raid|Dusan|Jelena|Da li je potrebno poneti hranu sa sobom ili hocete da angažujemo dostavljače?|Mozete angazovati dostavljace.|Accepted
+Area 51 Raid|Dusan|Jelena|Da li su oružija dozvoljena?|Nisu.|Denied
+Area 51 Raid|Dusan|Jelena|Da li je potrebno organizovati prevoz?||Pending

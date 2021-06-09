@@ -1,0 +1,3 @@
+Barok Svirka|jelena@gmail.com|Party|5000 RSD|Mišićeva 22, Novi Sad|nema|6/12/2021 12:00:00 AM|ORANGE|80|22|dule@gmail.com|
+Mirkovo Venčanje|jelena@gmail.com|Wedding|40000 RSD|94 Slobodana, Novi Sad|nema|6/18/2021 12:00:00 AM|WHITE|30|40|dule@gmail.com|
+Area 51 Raid|jelena@gmail.com|Gathering|0 RSD|Area 51 SAD|nema|6/26/2021 12:00:00 AM|GREEN|5000|25|dule@gmail.com|Limuzine Kićanović

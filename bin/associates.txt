@@ -1,0 +1,7 @@
+|Restoran|Picerija|Rasveta|Prevoz|Klub
+Restoran|Tri ribara|Sve vrste ribe na jednom mestu
+Picerija|Pikaso|Picerija, vrši dostavu po celom gradu.
+Rasveta|Boris rasveta|Disko, koncert, boris radi sve.
+Prevoz|Limuzine Kićanović|Prevozimo sve i svašta.
+Restoran|Kinezi|Razna kineska hrana.
+Klub|Status|Noćni klub

@@ -1,0 +1,7 @@
+CLIENT|Dusan|dule@gmail.com|060 9999999|dule
+ORGANIZER|Jelena|jelena@gmail.com|063 3434032|jelena
+ADMIN|Nenad|nenad@gmail.com|063 5432434|nenad
+CLIENT|igor krč|igor@gmail.com|033423434|igor
+CLIENT|mirko|mirko@gmail.com|060 324324|mirko
+ORGANIZER|Ana|ana@gmail.com|060 7203938|ana
+ORGANIZER|Milica|milica@gmail.com|303 32032032|milica
