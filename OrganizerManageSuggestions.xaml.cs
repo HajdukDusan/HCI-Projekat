@@ -92,7 +92,7 @@ namespace HCI_Projekat
             {
                 textBlock_Replay.Text = "Pending...";
             }
-            statusLabel.Content = textBlock_YourSuggestion.Text = AppManager.getEventSuggestions(AppManager.SelectedEvent.Name)[dataGrid.SelectedIndex].status.ToString();
+            statusLabel.Content = AppManager.getEventSuggestions(AppManager.SelectedEvent.Name)[dataGrid.SelectedIndex].status.ToString();
         }
     }
 }

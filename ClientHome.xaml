@@ -7,7 +7,7 @@
         xmlns:viewModel="clr-namespace:HCI_Projekat.MvM.ViewModel"
         xmlns:view="clr-namespace:HCI_Projekat.MvM.View"
         mc:Ignorable="d"
-        Height="600"
+        Height="1000.5"
         Width="1000"
         WindowStyle="None"
         MouseDown="Window_MouseDown"
@@ -133,7 +133,7 @@
                 <RowDefinition></RowDefinition>
             </Grid.RowDefinitions>
 
-            <TextBlock Text="Korisnik"
+            <TextBlock Text="Client"
                        
                    VerticalAlignment="Center"
                    HorizontalAlignment="Left"
@@ -176,6 +176,11 @@
                              FontSize="14"
                               Command="{Binding AllEventsViewCommand}"
                              Style="{StaticResource MenuButtonTheme}"></RadioButton>
+                <RadioButton Content="Help"
+                    Foreground="White"
+                    Height="50"
+                    FontSize="14"
+                    Style="{StaticResource MenuButtonTheme}" Checked="RadioButton_Checked_1"/>
                 <RadioButton Content="Sign Out"
                     Foreground="White"
                     Height="50"

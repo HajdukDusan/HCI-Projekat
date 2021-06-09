@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -48,6 +49,15 @@ namespace HCI_Projekat
             form3.Top = this.Top + (this.Height - form3.Height) / 2;
             form3.Closed += (s, args) => this.Close();
             form3.Show();
+        }
+
+        private void RadioButton_Checked_1(object sender, RoutedEventArgs e)
+        {
+            Process process = new Process();
+            ProcessStartInfo startInfo = new ProcessStartInfo();
+            process.StartInfo = startInfo;
+            startInfo.FileName = @"C:\Users\Hajduk\Desktop\HCI-Projekat\bin\doc.pdf";
+            process.Start();
         }
     }
 }
